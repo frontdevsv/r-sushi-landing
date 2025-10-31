@@ -33,7 +33,7 @@ h1,h2,h3,h4,p,label{
     font-size: 25px;
 }
 .banner{
-    background-image: url(banner.webp);
+    background-image: url(images/banner.webp);
     height: 25vh;
     width: 100%;
     background-repeat: no-repeat;
