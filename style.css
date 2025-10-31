@@ -76,7 +76,7 @@ h1,h2,h3,h4,p,label{
 .about{
     margin: 20px auto;
     padding: 0px 15%;
-    max-width: 80wh;
+    max-width: 80vw;
 }
 .about h1{
     color: red;
@@ -154,4 +154,148 @@ footer{
 
 footer p{
     font-size: 22px;
+}
+
+
+
+
+
+
+
+@media screen and (max-width:768px){
+footer{
+    
+    text-align: center;
+    padding: 15px;
+
+}
+.contact{
+    flex-direction: column;
+}
+.map-container{
+    margin: 15px 0px;
+}
+.map-container iframe{
+    height: 280px;
+    width: 100vw;
+}
+.cont_form{
+    /* align-items: center; */
+    align-items: stretch;
+    margin-right: 0;
+}
+.about h1{
+    font-size: 25px;
+    text-align: left;
+}
+.about h2{
+    font-size: 22px;
+}
+.about p{
+    font-size: 18px;
+}
+.myAbout{
+    font-size: 18px;
+}
+.card{
+    width: 100%;
+    padding: 10px;
+}
+.menu{
+    padding: 5px;
+}
+.card p {
+    width: 100%;
+    text-align: center;
+}
+.top_Nav{
+    flex-direction: column;
+}
+    .cont_form input[type="text"],
+     .cont_form input[type="email"],
+    .cont_form input[type="submit"]{
+    width: 100%;
+}
+}
+
+@media screen and (min-width: 769px) and (max-width: 1200px){
+footer {
+    text-align: center;
+    padding: 20px 5%;
+  }
+footer p {
+    font-size: 18px;
+  }
+.contact{
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 30px 5%;
+}
+.cont_form{
+    width: 45%;
+    margin-right: 0px;
+}
+.map-container iframe{
+    height: 300px;
+    width: 100%;
+}
+  .about {
+    padding: 0 10%;
+    max-width: 90%;
+  }
+  .about h1 {
+    font-size: 36px;
+  }
+  .about h2 {
+    font-size: 30px;
+  }
+  .about p {
+    font-size: 20px;
+  }
+
+    .card img {
+    max-height: 260px;
+    max-width: 100%;
+  }
+  .card h2 {
+    font-size: 26px;
+  }
+  .card p {
+    font-size: 18px;
+  }
+
+    .menu_Title {
+    font-size: 32px;
+    margin-top: 40px;
+  }
+  h1, h2, h3, p, label {
+    line-height: 1.4;
+  }
+
+    .card {
+    width: 45%;
+    margin: 20px 0;
+    padding: 15px;
+  }
+
+    .card {
+    width: 45%;
+    margin: 20px 0;
+    padding: 15px;
+  }
+
+    .top_Nav {
+    padding: 15px 8%;
+  }
+  .nav_link a {
+    font-size: 20px;
+    padding: 0 15px;
+  }
+
+  /* Banner */
+  .banner {
+    height: 35vh;
+    background-position: center;
+  }
 }
